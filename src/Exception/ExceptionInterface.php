@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\XmlRpc\Exception;
+namespace Aesislabs\Component\XmlRpc\Exception;
 
 interface ExceptionInterface extends \Throwable
 {

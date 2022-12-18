@@ -1,10 +1,10 @@
 PHP XML-RPC client
 ==================
 
-[![Build Status](https://api.travis-ci.com/Ang3/php-xmlrpc-client.svg?branch=master)](https://app.travis-ci.com/github/Ang3/php-xmlrpc-client) 
-[![Latest Stable Version](https://poser.pugx.org/ang3/php-xmlrpc-client/v/stable)](https://packagist.org/packages/ang3/php-xmlrpc-client) 
-[![Latest Unstable Version](https://poser.pugx.org/ang3/php-xmlrpc-client/v/unstable)](https://packagist.org/packages/ang3/php-xmlrpc-client) 
-[![Total Downloads](https://poser.pugx.org/ang3/php-xmlrpc-client/downloads)](https://packagist.org/packages/ang3/php-xmlrpc-client)
+[![Build Status](https://api.travis-ci.com/Aesislabs/php-xmlrpc-client.svg?branch=master)](https://app.travis-ci.com/github/Aesislabs/php-xmlrpc-client) 
+[![Latest Stable Version](https://poser.pugx.org/aesislabs/php-xmlrpc-client/v/stable)](https://packagist.org/packages/aesislabs/php-xmlrpc-client) 
+[![Latest Unstable Version](https://poser.pugx.org/aesislabs/php-xmlrpc-client/v/unstable)](https://packagist.org/packages/aesislabs/php-xmlrpc-client) 
+[![Total Downloads](https://poser.pugx.org/aesislabs/php-xmlrpc-client/downloads)](https://packagist.org/packages/aesislabs/php-xmlrpc-client)
 
 PHP XML-RPC **client only** inspired from package 
 [DarkaOnLine/Ripcord](https://packagist.org/packages/darkaonline/ripcord).
@@ -22,7 +22,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of the client:
 
 ```console
-$ composer require ang3/php-xmlrpc-client
+$ composer require aesislabs/php-xmlrpc-client
 ```
 
 This command requires you to have Composer installed globally, as explained
@@ -38,7 +38,7 @@ Then, call the desired method with optional arguments:
 ```php
 require_once 'vendor/autoload.php';
 
-use Ang3\Component\XmlRpc\Client;
+use Aesislabs\Component\XmlRpc\Client;
 
 // Create the client
 $client = new Client('<xmlrpc_server_url>');
@@ -47,9 +47,9 @@ $client = new Client('<xmlrpc_server_url>');
 $result = $client->call('method_name', $args = []);
 ```
 
-> - A ```Ang3\Component\XmlRpc\Transport\TransportException``` when the request to the server failed.
-> - A ```Ang3\Component\XmlRpc\Exception\RemoteException``` is thrown if the XML-RPC server returns an error.
-> - Both of previous exceptions extend exception ```Ang3\Component\XmlRpc\Exception\RequestException```
+> - A ```Aesislabs\Component\XmlRpc\Transport\TransportException``` when the request to the server failed.
+> - A ```Aesislabs\Component\XmlRpc\Exception\RemoteException``` is thrown if the XML-RPC server returns an error.
+> - Both of previous exceptions extend exception ```Aesislabs\Component\XmlRpc\Exception\RequestException```
 
 That's it!
 

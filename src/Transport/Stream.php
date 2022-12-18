@@ -1,6 +1,6 @@
 <?php
 
-namespace Ang3\Component\XmlRpc\Transport;
+namespace Aesislabs\Component\XmlRpc\Transport;
 
 class Stream implements TransportInterface
 {

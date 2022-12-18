@@ -1,12 +1,12 @@
 <?php
 
-namespace Ang3\Component\XmlRpc;
+namespace Aesislabs\Component\XmlRpc;
 
-use Ang3\Component\XmlRpc\Exception\ConfigurationException;
-use Ang3\Component\XmlRpc\Exception\RemoteException;
-use Ang3\Component\XmlRpc\Exception\RequestException;
-use Ang3\Component\XmlRpc\Transport\Stream;
-use Ang3\Component\XmlRpc\Transport\TransportInterface;
+use Aesislabs\Component\XmlRpc\Exception\ConfigurationException;
+use Aesislabs\Component\XmlRpc\Exception\RemoteException;
+use Aesislabs\Component\XmlRpc\Exception\RequestException;
+use Aesislabs\Component\XmlRpc\Transport\Stream;
+use Aesislabs\Component\XmlRpc\Transport\TransportInterface;
 
 class Client
 {
