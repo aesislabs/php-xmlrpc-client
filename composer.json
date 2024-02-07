@@ -16,7 +16,8 @@
     }
   },
   "require": {
-    "php": "^8.0"
+    "php": "^8.0",
+    "laminas/laminas-xmlrpc": "^2.19"
   },
   "require-dev": {
     "roave/security-advisories": "dev-master",
